@@ -9,8 +9,12 @@ public class TestClass {
 		int a =10;
 		System.out.println("a is: "+a);
 		int b=30;
-		System.out.println("b is: "+b);
+		int div = a / b;
+		System.out.println("division is: " + div);
+    	System.out.println("b is: "+b);
 		int sub = a - b;
 		System.out.println("Sub is: " + sum);
+    	int div = a / b;
+		System.out.println("division is: " + div);
 	}
 }
